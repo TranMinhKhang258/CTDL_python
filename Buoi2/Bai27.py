@@ -1,0 +1,9 @@
+from array import array
+
+my_array = array('i', [1, 2, 3, 4, 5])
+
+buffer_info = my_array.buffer_info()
+
+print('Update after buffer_info')
+print('Address: ', buffer_info[0])
+print('Size of element: ', buffer_info[1])

@@ -7,4 +7,4 @@ def UCLN(a, b):
 a = int(input('Nhập a = '))
 b = int(input('Nhập b = '))
 
-print(f'Ước chung lớn nhất của {a} và {b} là {UCLN(a, b)}')
+print(f'Ước chung lớn nhất của {a} và {b} sẽ là {UCLN(a, b)}')
